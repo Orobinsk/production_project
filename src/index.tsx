@@ -3,6 +3,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { ThemeProvider } from 'app/providers/ThemeProvider';
 import { ErrorBoundary } from 'app/providers/Errorboundary';
 import App from './app/App';
+import 'app/styles/index.scss';
 
 import 'shared/config/i18next/i18n';
 
